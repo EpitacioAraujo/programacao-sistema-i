@@ -24,12 +24,12 @@ class Aula {
 
         System.out.println("OU EXCLUSIVO - true ^ true :" + (true ^ true));
 
-        int vl = 0;
+        double a,b,c;
 
-        int a = ++vl;
-        System.out.println(a);
-        
-        int b = vl++;
-        System.out.println(b);
+        a = 0.1;
+        b = 0.2;
+        c = a + b;
+
+        System.out.println(c);
     }
 }
